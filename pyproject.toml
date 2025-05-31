@@ -1,0 +1,21 @@
+[project]
+name = "car-behaviour-detection"
+version = "0.1.0"
+description = "A project to detect car driver behaviour using computer vision techniques"
+authors = [
+    {name = "yeshapan",email = "yesha.pandya@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ultralytics (>=8.3.146,<9.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "filterpy (>=1.4.5,<2.0.0)",
+    "numpy (>=2.2.6,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

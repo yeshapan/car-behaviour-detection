@@ -1,0 +1,48 @@
+#data folders
+data/raw_videos/
+data/extracted_frames/
+data/tracking_outputs/
+
+# Optional: Ignore annotations if large
+# data/behavior_annotations/*.csv
+
+# ========== MODEL FILES ==========
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# ========== NOTEBOOK/EDITOR JUNK ==========
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# ========== PYTHON CACHE ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========== ENVIRONMENT FILES ==========
+.env
+.venv/
+env/
+venv/
+
+# ========== LOGS ==========
+*.log
+logs/
+
+# ========== TEMP FILES ==========
+*.tmp
+*.temp
+
+# ========== JUPYTER FILES ==========
+*.nbconvert.ipynb
+
+# ========== OS-SPECIFIC ==========
+Thumbs.db
+ehthumbs.db
+desktop.ini
