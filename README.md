@@ -1,6 +1,6 @@
 # Behavior Detection at Pedestrian Crossings
 
-A computer vision project to analyze driver behavior at zebra crossings using YOLOv8 and object tracking. This project detects vehicles, estimates their speed, and classifies their behavior into categories such as:
+A computer vision project to analyze driver behavior at zebra crossings using YOLOv8 and object tracking. This project detects vehicles, estimates their speed, and classifies their behavior into categories.
 
 ## Project Objectives
 
@@ -15,7 +15,7 @@ A computer vision project to analyze driver behavior at zebra crossings using YO
 
 > NOTE that data is not included in this repo as it exceeds git's file size and data limit. Refer to the drive link below
 
-> Here's the link to drive folder containing all the raw and data: https://drive.google.com/drive/folders/19tOeHkWPvRAXDDVmK2OMGSgiqTCMGbf3?usp=drive_link
+> Here's the link to drive folder containing all the raw and extracted data and the notebooks: https://drive.google.com/drive/folders/19tOeHkWPvRAXDDVmK2OMGSgiqTCMGbf3?usp=drive_link
 
 
 
@@ -41,14 +41,17 @@ car-behaviour-detection/
 
 ## Drive Folder Structure
 ```bash
+car-behaviour-project/
 ├── data/                         
-│ ├── raw_videos/                 #original surveillance footages
-│ ├── extracted_frames/           #frames extracted at 10 FPS
-│ ├── visualized_tracked_frames/  #frames with objects (vehicles) detected and tracked with their ID (visuualized as bounding boxes)
-│ ├── tracking_outputs/           #tracker outputs with IDs in a csv file
-│ └── behavior_annotations/       #behavior labels
+│ ├── raw_videos/                       #original surveillance footages
+│ ├── extracted_frames/                 #frames extracted at 10 FPS
+│ ├── visualized_tracked_frames/        #frames with objects (vehicles) detected and tracked with their ID (visuualized as bounding boxes)
+│ ├── tracking_outputs/                 #csv file with tracker outputs (with IDs)
+│ ├── speed_estimation_outputs/         #csv file containing speed estimations for different vehicles (tracked by ID)
+│ ├── behaviour_classification_outputs/
+│ └── behavior_annotations/             #behavior labels
 │
-├── notebooks/                    #notebooks are just to test code in sections (on colab) before adding it  to src
+├── notebooks/                          #notebooks are just to test code in sections (on colab) before adding it  to src
 │ ├── 1_extract_frames.ipynb           
 │ ├── 2_detect_and_track.ipynb           
 │ ├── 3_speed_estimation.ipynb
@@ -57,6 +60,7 @@ car-behaviour-detection/
 └── models
   ├── yolov8/
 ```
+
 
 ## Tech Stack
 
