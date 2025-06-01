@@ -11,7 +11,7 @@ A computer vision project to analyze driver behavior at zebra crossings using YO
   - **B2**: Stopping at the crossing when a red light is shown, or pedestrians are crossing.
   - **B3**: Stop behind the crossing line.
 
-> This project is inspired by work conducted with the Kuyesera AI Lab at MUBAS, under the leadership of Principal Investigator Dr. Amelia Taylor.
+> This project is inspired by work conducted with the Kuyesera AI Lab at MUBAS, under the leadership of Principal Investigator Dr. Amelia Taylor and guidance of Prof G.R. Sinha.
 
 > NOTE that data is not included in this repo as it exceeds git's file size and data limit. Refer to the drive link below
 
