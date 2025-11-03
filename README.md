@@ -51,10 +51,10 @@ Thresholds:
 * Region of Interest (ROI) Definition - Predefined rectangular zones (Approach Zones, Stop Lines, and Crossing Zone) are manually annotated in pixel coordinates to localize vehicle activity relative to the pedestrian crossing
 * Lane-Specific Logic - Each lane (closer_lane, far_lane) is assigned movement direction metadata (left/right) for accurate interpretation of entry and exit events within ROIs
 * Configurable parameters determine compliance patterns. For eg:
-      * minimum speed reduction (MIN_SPEED_REDUCTION_KMH)
-      * stopping criteria (STOPPING_SPEED_THRESHOLD_KMH)
-      * required frame duration thresholds (MIN_FRAMES_IN_APPROACH_FOR_B1, MIN_STOP_DURATION_FRAMES)
-* The pipeline merges computed speed data with behavioural classification results; saving per-frame and per-vehicle behavioural outcomes (*_behaviour_classified.csv).
+    * minimum speed reduction (MIN_SPEED_REDUCTION_KMH)
+    * stopping criteria (STOPPING_SPEED_THRESHOLD_KMH)
+    * required frame duration thresholds (MIN_FRAMES_IN_APPROACH_FOR_B1, MIN_STOP_DURATION_FRAMES)
+* The pipeline merges computed speed data with behavioural classification results; saving per-frame and per-vehicle behavioural outcomes (*_behaviour_classified.csv)
 
 ###### 6. Planned (Future Scope)
 * Automated Behavioural Tagging: Use the defined ROIs and thresholds to classify vehicle behaviour into categories such as Approach, Stop, Cross, and Violation
