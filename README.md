@@ -113,14 +113,14 @@ car-behaviour-detection/
   
 ## Setup Instructions (with Poetry)
 
-### 1. Clone the repo
+#### 1. Clone the repo
 
 ```bash
 git clone https://github.com/your-username/behavior-detection-project.git
 cd behavior-detection-project
 ```
 
-### 2. Install Poetry (if not done so already)
+#### 2. Install Poetry (if not done so already)
 Follow official instructions: https://python-poetry.org/docs/#installation
 or
 ```bash
@@ -128,12 +128,12 @@ curl -sSL https://install.python-poetry.org | python3 -
 ```
 > After installing poetry , add it to PATH and restart your terminal
 
-### 3. Install dependencies
+#### 3. Install dependencies
 ```bash
 poetry install
 ```
-### 4. Activate virtual environment
+#### 4. Activate virtual environment
 ```bash
 poetry shell
 ```
-### 5. Run the full pipeline
+#### 5. Run the full pipeline
